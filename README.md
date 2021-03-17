@@ -1,4 +1,4 @@
-# ListaSequencial-Encadeada
+# Lista Sequencial-Encadeada
 Manipulando e Comparando Listas Sequencias e Encadeadas de arquivos .txt
 
 Enunciado:
