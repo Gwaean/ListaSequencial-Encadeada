@@ -1,0 +1,50 @@
+int tempoexecucao (){
+return;
+}
+void inserirClienteSequencial(){
+
+}
+void retirarClienteSequencial()
+{
+
+}
+void inserirfimClienteEncadeada(Cliente **listaT, Cliente *lista)
+{
+
+}
+void inseririnicioClienteEncadeada(Cliente **listaT, CLiente *lista)
+{
+}
+void inserirmeioClienteEncadeada(Cliente **listaT, Cliente *lista, int posicao)
+{
+    Cliente *elementoAuxiliar;
+    int encontrou=0;
+    elementoAuxiliar = *listaT;
+
+    while(encontrou == 0 && elementoAuxiliar->proximo != NULL)
+    { /* Verifica se o no atual eh o no procurado */
+        if (elementoAuxiliar->posicao == posicao){
+            elemento->proximo = elementoAuxiliar->proximo; 
+            elementoAuxiliar->proximo = (struct Cliente *) elemento; 
+            encontrou = 1;
+        }  
+        else{
+            elementoAuxiliar = (Cliente *) elementoAuxiliar->proximo;
+        } 
+    }
+}
+void retirarfimClienteEncadeada()
+{
+
+}
+void retirarinicioCLienteEncadeada()
+{
+
+}
+void retirarmeioClienteEncadeada()
+{
+
+}
+void procurarCliente(){
+
+}
