@@ -1,0 +1,73 @@
+#include "funcao.h"
+#include <iostream>
+#include<time.h>
+#include<fstream>
+using namspace std;
+
+struct Cliente{
+  int rg;
+  char nome;
+  int posicao;
+  struct Cliente *proximo;
+};
+
+int main(){
+
+ int no, mov;  // para guardar o numero de if e de movimentaçoes
+ int posicao;
+ char opcao, opcao1[3];
+ cout << " \n  Menu de Opções \n" <<" ------------------\n" 
+ << " A- Início da Lista\n" << " B- Fim da Lista\n" 
+ <<  " C- Posição n\n" << " D- Procurar um nó\n "
+ << "E- Mostrar a lista\n " << "F- Salvar a lista em um arquivo\n"
+ << " G- Ler a lista de um arquivo\n" << " H- Sair" << endl;
+
+  while(opcao!='h' || opcao!='H'){
+  cin >> opcao;
+   switch (opcao){
+    case 'a':
+     cout<< "Deseja retirar ou colocar um nó?"<< endl;
+      cin>>opcao;
+      if(opcao=='r'||opcao=='R'){
+
+          }
+         else{
+
+             }
+    break;
+    case 'b';
+     cout<< "Deseja retirar ou colocar um nó?"<< endl;
+     cin>>opcao;
+     if(opcao=='r'||opcao== 'R'){
+
+        }
+       else{
+      
+         }
+    break;
+    case 'c':
+     cout<< "Deseja retirar ou colocar um nó?"<< endl;
+     cin>>opcao;
+     if(opcao=='r'||opcao== 'R'){
+
+     }
+      else{
+
+          }
+     break;
+    case 'd':
+     break;
+    case 'e':
+     break;
+    case 'f':
+     break;
+    case 'g':
+     break;
+    default:
+     cout<< "Deseja ver o menu novamente? \n"
+     cin.getline(opcao1,3);
+ }
+
+  }
+  return 0;
+          }
